@@ -1,0 +1,52 @@
+<!-- <a routerLink="">Главная</a>
+<a routerLink="/tests">Тесты</a>
+<a routerLink="/proflist">Список профессий</a> -->
+<!-- <link href="node_modules/ @angular/material/prebuilt-themes/deeppurple-amber.css" rel="stylesheet"> -->
+<style>
+  header{
+    background-color:#0F292F;
+    margin: 0;
+    border-radius: 8px;
+    color: #CCCCCC;
+  }
+
+</style>
+
+  <div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom" >
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li ><a routerLink="" class="nav-link px-2 link-secondary" style="font-size:large; color: #14A098">Главная</a></li>
+        <li ><a routerLink="tests" class="nav-link px-2 link-dark" style="font-size: large; color: #14A098">Опросник Холланда</a></li>
+        <li ><a routerLink="proflist" class="nav-link px-2 link-dark" style="font-size: large; color: #14A098">Список профессий</a></li>
+        <li ><a routerLink="contact" class="nav-link px-2 link-dark" style="font-size: large; color: #14A098">Контакты</a></li>
+      </ul>   
+      <p style="font-size: 35px; margin-right: 100px; margin-top: 12px;">Выбери свою профессию!</p>
+    </header>
+</div>
+
+<router-outlet></router-outlet>
+
+
+
+<!-- <form [formGroup]="profileForm" (ngSubmit)="onSubmit()" >
+    <p>
+      <label>Имя
+        <input formControlName="firstName" />
+      </label>
+    </p>
+    <p>
+      <label>
+        Фамилия
+        <input formControlName="lastName" />
+      </label>
+    </p>
+     <div>
+      <label>
+        Выбрал(-a) профессию
+        <input type="radio" id="radioButton" formControlName="chooseprofession" />
+      </label>
+    </div> 
+     <button [disabled]="profileForm.invalid" type="submit">Подтвердить</button>
+  </form> -->
+<!-- <a href="https://t.me/poka_mk" style="position: absolute; overflow: hidden; bottom: 30; right: 20;">Telegram</a> -->
+  

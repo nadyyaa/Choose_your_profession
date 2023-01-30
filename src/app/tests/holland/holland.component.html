@@ -1,0 +1,744 @@
+<link rel="stylesheet" href="holland.component.css">
+<div class="test">
+  <h2>Опросник Холланда</h2>
+  <form [formGroup]="form" (ngSubmit)="ngSubmit()">
+    <div class="form-group" >
+    
+      <label>Какая профессия Вам больше подходит: </label>
+    <div class="row" >
+      <label class="md-check">
+        <input type="radio" value="engineer" name="q1" formControlName="q1">
+        инженер
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="sociologist" name="q1" formControlName="q1">     
+        социолог
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая профессия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="baker" name="q2" formControlName="q2">
+        кондитер
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="priest" name="q2" formControlName="q2">     
+        священнослужитель
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая профессия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="cook" name="q3" formControlName="q3">
+        повар
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="statiscian" name="q3" formControlName="q3">     
+        статистик
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="photographer" name="q4" formControlName="q4">
+        фотограф
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="admistratortz" name="q4" formControlName="q4">     
+        администратор торгового зала
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="mechanic" name="q5" formControlName="q5">
+        механик
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="designer" name="q5" formControlName="q5">     
+        дизайнер
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="philosoph" name="q6" formControlName="q6">
+        философ
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="doctor" name="q6" formControlName="q6">     
+        врач
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="ecolog" name="q7" formControlName="q7">
+        эколог
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="buxgalter" name="q7" formControlName="q7">     
+        бухгалтер
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="programmist" name="q8" formControlName="q8">
+        программист
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="advokat" name="q8" formControlName="q8">     
+        адвокат
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="kinolog" name="q9" formControlName="q9">
+        кинолог
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="translaterxl" name="q9" formControlName="q9">     
+        переводчик художественной литературы
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="straxovoyagent" name="q10" formControlName="q10">
+        страховой агент
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="arxivist" name="q10" formControlName="q10">     
+        архивист
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="coach" name="q11" formControlName="q11">
+        тренер
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="telereporter" name="q11" formControlName="q11">     
+        телерепортер
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="detective" name="q12" formControlName="q12">
+        следователь
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="arthistorian" name="q12" formControlName="q12">     
+        искусствовед
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="notarious" name="q13" formControlName="q13">
+        нотариус
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="broker" name="q13" formControlName="q13">     
+        брокер
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="operatorevm" name="q14" formControlName="q14">
+        оператор ЭВМ
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="manekenshiza" name="q14" formControlName="q14">     
+        манекенщица
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="photokorrespondent" name="q15" formControlName="q15">
+        фотокорреспондент
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="restavrator" name="q15" formControlName="q15">     
+        реставратор
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="ozelenitel" name="q16" formControlName="q16">
+        озеленитель
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="biologissledovatel" name="q16" formControlName="q16">     
+        биолог-исследователь
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="driver" name="q17" formControlName="q17">
+        водитель автотранспорта
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="bortprovodnik" name="q17" formControlName="q17">     
+        бортпроводник
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="meteorolog" name="q18" formControlName="q18">
+        метеоролог
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="cartograph" name="q18" formControlName="q18">     
+        картограф
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="radiomonrazhnic" name="q19" formControlName="q19">
+        радиомонтажник
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="drawertree" name="q19" formControlName="q19">     
+        художник росписи по дереву
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="geolog" name="q20" formControlName="q20">
+        геолог
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="gidtranslater" name="q20" formControlName="q20">     
+        гид-переводчик
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="zhurnalist" name="q21" formControlName="q21">
+        журналист
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="rezhisser" name="q21" formControlName="q21">     
+        режиссер
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="bibliograph" name="q22" formControlName="q22">
+        библиограф
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="auditor" name="q22" formControlName="q22">     
+        аудитор
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="pharmazevt" name="q23" formControlName="q23">
+        фармацевт
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="uriskonsult" name="q23" formControlName="q23">     
+        юрисконсульт
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="genetic" name="q24" formControlName="q24">
+        генетик
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="architector" name="q24" formControlName="q24">     
+        архитектор
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="seller" name="q25" formControlName="q25">
+        продавец
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="operatorps" name="q25" formControlName="q25">     
+        оператор почтовой связи
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="socialworker" name="q26" formControlName="q26">
+        социальный работник
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="predprinimatel" name="q26" formControlName="q26">     
+        предприниматель
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="teachervus" name="q27" formControlName="q27">
+        преподаватель вуза
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="musicionispolnitel" name="q27" formControlName="q27">     
+        музыкант-исполнитель
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="economist" name="q28" formControlName="q28">
+        экономист
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="menedzher" name="q28" formControlName="q28">     
+        менеджер
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="corrector" name="q29" formControlName="q29">
+         корректор
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="dirizher" name="q29" formControlName="q29">     
+        дирижер
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="inspectortamozhni" name="q30" formControlName="q30">
+        инспектор таможни
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="drawermodel" name="q30" formControlName="q30">     
+        художник-модельер
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="telephonost" name="q31" formControlName="q31">
+        телефонист
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="ornitolog" name="q31" formControlName="q31">     
+        орнитолог
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="agronom" name="q32" formControlName="q32">
+        агроном
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="topograph" name="q32" formControlName="q32">     
+        топограф
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="forester" name="q33" formControlName="q33">
+        лесник
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="headteacher" name="q33" formControlName="q33">     
+        директор
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="masterporemonty" name="q34" formControlName="q34">
+        мастер по ремонту и пошиву одежды
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="xoreograph" name="q34" formControlName="q34">     
+        хореограф
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="historic" name="q35" formControlName="q35">
+        историк
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="inspectorgai" name="q35" formControlName="q35">     
+        инспектор ГАИ
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="antropolog" name="q36" formControlName="q36">
+        антрополог
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="ecscursovod" name="q36" formControlName="q36">     
+        экскурсовод
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="virusolog" name="q37" formControlName="q37">
+        вирусолог
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="actor" name="q37" formControlName="q37">     
+        актер
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="oficiant" name="q38" formControlName="q38">
+        официант
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="tovaroved" name="q38" formControlName="q38">     
+        товаровед
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="mainbuxgalter" name="q39" formControlName="q39">
+        главный бухгалтер
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="inspectorugolovnogorozuska" name="q39" formControlName="q39">     
+        инспектор уголовного розыска
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="parikmaxermodeler" name="q40" formControlName="q40">
+        парикмахер-модельер
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="psycologist" name="q40" formControlName="q40">     
+        психолог
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="pchelovod" name="q41" formControlName="q41">
+        пчеловод
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="kommersant" name="q41" formControlName="q41">     
+        коммерсант
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Какая професиия Вам больше подходит: </label>
+    <div class="row">
+      <label class="md-check">
+        <input type="radio" value="sudya" name="q42" formControlName="q42">
+        судья
+      </label>
+  
+      <label class="md-check">
+        <input type="radio" value="stenographist" name="q42" formControlName="q42">     
+        стенографист
+      </label>
+    </div>
+  </div>
+  <br>
+  <input class="button" type="submit" value="Посмотреть результаты" />
+  <hr>
+</form>
+  </div>
+
+  
+    
+  
+
+<!--   
+<button (click)="toggle=!toggle">Посмотреть результаты</button>
+<div *ngIf="toggle">sdfghjksfbsfbfbebefebfvf</div> -->
+<br>
+<div *ngIf="toggle" class="results">
+  <h3 class="header">Реалистичный тип (Realistic) {{savedResult['r']}} из 14</h3>
+<p>Несоциальный, ориентированный на настоящее, эмоционально стабильный, занимающийся конкретными объектами (вещами, инструментами, машинами), отдает предпочтение занятиям, требующим моторной ловкости, конкретности. Развиты математические, невербальные способности.</p>
+<p>
+  <strong>Психологические характеристики: </strong>
+  Активность, агрессивность, деловитость, настойчивость, рациональность, практическое мышление, хорошие двигательные навыки, пространственное воображение, технические способности.
+</p>
+<p>
+  <strong>Предпочтения:</strong>
+  Конкретный результат, настоящее, вещи, предметы и их практическое использование, занятия, требующие физического развития, ловкости, отсутствие ориентации на общение.
+</p>
+<p>
+  <strong>Профессиональная среда:</strong>
+  Техника, сельское хозяйство, военное дело. Решение конкретных задач, требующих подвижности, двигательных умений, физической силы. Социальные навыки нужны в минимальной мере и связаны с приемом-передачей ограниченной информации.
+</p>
+<p>
+  <strong>Примеры профессий:</strong>
+  Механик, электрик, инженер, фермер, зоотехник, геолог, гравер, агроном, садовод, автослесарь, шофер, пилот, полицейский, охранник (телохранитель), сварщик, стоматолог.
+</p>
+<p>
+  <strong>Типичные увлечения:</strong>
+  Реставрация старых механизмов. Ремонт, конструирование, сборка различных устройств. Строительные и восстановительные работы. Фермерство, обустройство дачи, загородного дома. Огородничество, садоводство, охота, рыболовство, туризм, физически опасные виды спорта.
+</p>
+<h3 class="header">Исследовательский/интеллектуальный тип (Investigative) {{savedResult['i']}} из 14</h3>
+<p>Несоциален, аналитичен, рационален, независим, оригинален. Преобладают теоретические ценности, любит решать задачи, требующие абстрактного мышления, интеллектуал. Гармонично развиты вербальные и невербальные способности.</p>
+<p>
+  <strong>Психологические характеристики:</strong>
+  Аналитический ум, независимость и оригинальность суждений, гармоничное развитие языковых и математических способностей, критичность, любознательность, склонность к фантазии, интенсивная внутренняя жизнь, низкая физическая активность.
+</p>
+<p>
+  <strong>Предпочтения:</strong>
+  Идеи, теоретические ценности, умственный труд, решение интеллектуальных творческих задач, требующих абстрактного мышления, отсутствие ориентации на общение в деятельности, информационный характер общения.
+</p>
+<p>
+  <strong>Профессиональная среда:</strong>
+  Наука. Решение задач, требующих абстрактного мышления и творческих способностей. Межличностные отношения играют незначительную роль, хотя необходимо уметь передавать и воспринимать сложные идеи.
+</p>
+<p>
+  <strong>Примеры профессий:</strong>
+  Физик, астроном, лингвист, программист, микробиолог, архитектор, экономист (аудитор, аналитик), фармацевт, искусствовед, историк, этнограф, археолог.
+</p>
+<p>
+  <strong>Типичные увлечения:</strong>
+  Работа (исследовательский тип часто полностью поглощен своей работой). Сложные виды деятельности (яхтенный спорт, подводное плавание, альпинизм). Компьютеры, программирование, чтение (художественная литература, научные статьи).
+</p>
+<h3 class="header">Социальный тип (Social) {{savedResult['c']}} из 14</h3>
+<p>
+  Опирается на эмоции, воображение, интуицию; имеет сложный взгляд на жизнь. Независим в решениях, оригинален. Высоко развиты моторные и вербальные способности. Для представителей данного типа характерен высокий жизненный идеал с утверждением своего Я. Он несоциален в том смысле, что не придерживается условностей общества.
+</p>
+<p>
+  <strong>Психологические характеристики:</strong>
+  Воображение и интуиция, эмоционально сложный взгляд на жизнь, независимость, гибкость и оригинальность мышления, хорошие двигательные способности и восприятие.
+</p>
+<p>
+  <strong>Предпочтения:</strong>
+  Эмоции и чувства, самовыражение, творческие занятия, избегание деятельности, требующей физической силы, регламентированного рабочего времени, следования правилам и традициям.
+</p>
+<p>
+  <strong>Профессиональная среда:</strong>
+  Изобразительное искусство, музыка, литература. Решение проблем, требующих художественного вкуса и воображения.
+</p>
+<p>
+  <strong>Примеры профессий:</strong>
+  Музыкант, художник, визажист, фотограф, актер, режиссер, дизайнер.
+</p>
+<p>
+  <strong>Типичные увлечения:</strong>
+  Фотография. Рисование. Живопись. Посещение танцевальных и музыкальных концертов, театров, музеев. Сочинение поэм, рассказов. Художественное коллекционирование. Игра на музыкальных инструментах. Занятие танцами, пением.
+</p>
+<h3 class="header">Конвенциальный  (Conventional) {{savedResult['k']}} из 14</h3>
+<p>Обладает социальными умениями, нуждается в контактах. Черты его характера: стремление поучать и воспитывать, психологический настрой на человека, гуманность. Представитель данного типа старается держаться в стороне от интеллектуальных проблем; активен, но часто зависим от мнения группы людей. Проблемы решает опираясь на эмоции, чувства, умение общаться. Обладает хорошими вербальными способностями.</p>
+<p>
+  <strong>Психологические характеристики:</strong>
+  Умение общаться, гуманность, способность к сопереживанию, активность, зависимость от окружающих и общественного мнения, приспособление, решение проблем с опорой на эмоции и чувства, преобладание языковых способностей.
+</p>
+<p>
+  <strong>Предпочтения:</strong>
+  Люди, общение, установление контактов с окружающими, стремление учить, воспитывать, избегание интеллектуальных проблем.
+</p>
+<p>
+  <strong>Профессиональная среда:</strong>
+  Образование, здравоохранение, социальное обеспечение, обслуживание, спорт. Ситуации и проблемы, связанные с умением разбираться в поведении людей, требующие постоянного личного общения, умения убеждать.
+</p>
+<p>
+  <strong>Примеры профессий:</strong>
+  Врач, педагог, психолог, экскурсовод, журналист, менеджер по продажам, ди-джей, телеведущий.
+</p>
+<p>
+  <strong>Типичные увлечения:</strong>
+  Организация развлечения других. Посещение общественных мероприятий, собраний. Добровольное выполнение благотворительной и социальной работы.
+</p>
+<h3 class="header">Предприимчивый тип (Enterprising) {{savedResult['p']}} из 14</h3>
+<p>Избирает цели, которые позволяют проявить энергию, энтузиазм, импульсивность, любит приключения. Представитель данного типа доминантен, любит признание, любит руководить. Ему не нравится практический труд, а также занятия требующие интеллектуальных усилий, усидчивости. Хорошо решает задачи, связанные с руководством, статусом и властью, агрессивен и предприимчив, обладает хорошими вербальными способностями.</p>
+<p>
+  <strong>Психологические характеристики:</strong>
+  Энергия, импульсивность, энтузиазм, предприимчивость, агрессивность, готовность к риску, оптимизм, уверенность в себе, преобладание языковых способностей, хорошие организаторские качества.
+</p>
+<p>
+  <strong>Предпочтения:</strong>
+  Лидерство, признание, руководство, власть, личный статус, избегание занятий, требующих усидчивости, большого труда, двигательных навыков и концентрации внимания, интерес к экономике и политике.
+</p>
+<p>
+  <strong>Профессиональная среда:</strong>
+  Решение неясных задач, общение с представителями различных типов в разнообразных ситуациях, требующее умения разбираться в мотивах поведения других людей и красноречия.
+</p>
+<p>
+  <strong>Примеры профессий:</strong>
+  Бизнесмен, маркетолог, менеджер, директор, заведующий, журналист, репортер, дипломат, юрист, политик, менеджер по продажам, биржевой брокер.
+</p>
+<p>
+  <strong>Типичные увлечения:</strong>
+  Членство в клубах, организациях, партиях. Посещение собраний, конференций. Спортивные состязания в качестве зрителя или участника. Престижный отдых, развлечения. Организация вечеринок, увеселений. Политическая деятельность.
+</p>
+<h3 class="header">Художественный тип (Artistic) {{savedResult['x']}} из 14</h3>
+<p>Предпочитает четко структурированную деятельность. Характер стереотипный, конкретный, практический. Не проявляет критичность, оригинальность, консервативен, зависим, не любит смену деятельности. Слабо развиты организаторские способности, преобладают математические способности.</p>
+<p>
+  <strong>Психологические характеристики:</strong>
+  Способности к переработке числовой информации, стереотипный подход к проблемам, консервативный характер, подчиняемость, зависимость, следование обычаям, конформность, исполнительность, преобладание математических способностей.
+</p>
+<p>
+  <strong>Предпочтения:</strong>
+  Порядок, четко расписанная деятельность, работа по инструкции, заданным алгоритмам, избегание неопределенных ситуаций, социальной активности и физического напряжения, принятие позиции руководства.
+</p>
+<p>
+  <strong>Профессиональная среда:</strong>
+  Экономика, связь, расчеты, бухгалтерия, делопроизводство, требующие способностей к обработке рутинной информации и числовых данных.
+</p>
+<p>
+  <strong>Примеры профессий:</strong>
+  бухгалтер, финансист, экономист, канцелярский служащий, библиотекарь, контролер, химик-технолог, чертежник, корректор, логист, товаровед.
+</p>
+<p>
+  <strong>Типичные увлечения:</strong>
+  Коллекционирование марок, монет. Настройка моделей. Проекты улучшения жилища. Участие в гражданских и общественных организациях. Игры с ясными и четкими правилами.
+</p>
+</div>
+

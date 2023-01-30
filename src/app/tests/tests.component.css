@@ -1,0 +1,14 @@
+.button{
+    height: 60px;
+    width: 200px;
+    font-size: 25px;
+}
+div{
+background-color:   #14A098;
+padding: 25px;
+width: 800px;
+height: 400px;
+margin: auto;
+margin-top: 75px;;
+border-radius: 8px;
+} 

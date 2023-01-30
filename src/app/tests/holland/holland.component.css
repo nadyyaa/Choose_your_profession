@@ -1,0 +1,31 @@
+.header{
+    text-align: center;
+    background-color: #501F3A;   
+    color: #CCCCCC
+  }
+  .test{
+    text-align: center;
+    background-color: #14A098;
+    width: 400px;
+    height: 70%;
+    padding: 50px;
+    margin: auto auto auto auto;
+    border-radius: 8px;
+  }
+  .button{
+      height: 50px;
+      width: 200px;
+      font-size: 15px;
+      background-color: #0F292F;
+      color: #CCCCCC;
+      border-radius: 8px;
+  }
+  .results{
+    /* background-color: #12C998; */
+    background-color: #14A098;
+    height: 3080px;
+    width: 1000px;
+    margin: auto auto auto auto;
+    padding: 50px;
+    border-radius: 8px;
+  }
