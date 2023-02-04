@@ -4,21 +4,24 @@
     color: #CCCCCC
   }
   .test{
-    text-align: center;
+    text-align: justify;
     background-color: #14A098;
-    width: 400px;
+    width: 50%;
     height: 70%;
-    padding: 50px;
+    padding: 5%;
     margin: auto auto auto auto;
     border-radius: 8px;
+
   }
-  .button{
+.button{
       height: 50px;
       width: 200px;
       font-size: 15px;
       background-color: #0F292F;
       color: #CCCCCC;
       border-radius: 8px;
+      position: relative;
+      left: 25%;
   }
   .results{
     /* background-color: #12C998; */
@@ -28,4 +31,18 @@
     margin: auto auto auto auto;
     padding: 50px;
     border-radius: 8px;
+  }
+  label{
+    font-size: large;
+  }
+  #qwe {
+    transform:scale(1.5);
+    opacity:0.9;
+    cursor:pointer;
+    }
+  h3{
+    text-align: "center";
+  }
+  .row{
+    position: relative; left: 35%;
   }

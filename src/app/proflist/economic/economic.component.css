@@ -1,0 +1,30 @@
+.table{
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+}
+.th {
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+}
+.td{
+    border: 2px solid rgb(0, 0, 0);
+}
+div{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:#0F292F;
+    /* height: 3080px; */
+    width: 1000px;
+    margin: auto auto auto auto;
+    padding: 50px;
+    border-radius: 8px;
+    color: white;
+}
+h2{
+    font-weight: 600;
+    text-align: center;
+    background-color: #501F3A;   
+    color: #CCCCCC
+}
