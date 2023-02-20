@@ -295,14 +295,6 @@ export class HollandComponent {
       this.k++;
       this.toggle=true;
     }
-    // if (this.r == 2) {
-    //   console.log(12)
-    //   // this.ShowResults()
-    // } 
-    // else {
-      
-    // }
-
     this.savedResult = {
       r: this.r,
       i: this.i,
