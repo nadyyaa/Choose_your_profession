@@ -32,7 +32,7 @@ export class HollandComponent {
   constructor(fb: FormBuilder){
     this.form = fb.group({});
     
-    for(let i = 1; i < 43; i++){
+    for(let i = 1; i < 44; i++){
       this.form.addControl(`q${i}`, new FormControl('')) 
     }
 

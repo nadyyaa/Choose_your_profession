@@ -21,6 +21,7 @@ import { DataService } from './data.service';
 import { HollandComponent } from './tests/holland/holland.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { ContactComponent } from './contact/contact.component';
+import { KarnauhComponent } from './tests/karnauh/karnauh.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ContactComponent } from './contact/contact.component';
     TeachersComponent,
     JurisprudenceComponent,
     HollandComponent,
-    ContactComponent
+    ContactComponent,
+    KarnauhComponent
   ],
   imports: [
     BrowserModule,

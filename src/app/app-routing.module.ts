@@ -18,6 +18,7 @@ import { TeachersComponent } from './proflist/teachers/teachers.component';
 import { JurisprudenceComponent } from './proflist/jurisprudence/jurisprudence.component';
 import { HollandComponent } from './tests/holland/holland.component';
 import { ContactComponent } from './contact/contact.component';
+import { KarnauhComponent } from './tests/karnauh/karnauh.component';
 
 
 const routes: Routes = [
@@ -36,6 +37,7 @@ const routes: Routes = [
   { path: 'proflist/Teachers', component: TeachersComponent },
   { path: 'proflist/Jurisprudence', component: JurisprudenceComponent },
   { path: 'tests/Holland', component: HollandComponent },
+  { path: 'tests/Karhauh', component: KarnauhComponent },
   { path: '**', component: NotFoundError },
 
 ]

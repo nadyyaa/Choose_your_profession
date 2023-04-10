@@ -7,8 +7,17 @@ div{
 background-color:   #14A098;
 padding: 25px;
 width: 800px;
-height: 400px;
+height: 440px;
 margin: auto;
 margin-top: 75px;;
 border-radius: 8px;
 } 
+.karnauh{
+    background-color:   #14A098;
+    padding: 25px;
+    width: 800px;
+    height: 390px;
+    margin: auto;
+    margin-top: 75px;;
+    border-radius: 8px;
+}
