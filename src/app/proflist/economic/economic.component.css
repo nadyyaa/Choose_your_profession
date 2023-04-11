@@ -1,15 +1,18 @@
 .table{
     border-collapse: collapse;
     border: 2px solid rgb(0, 0, 0);
-    color: white;
+    color: white
+   
 }
 .th {
     border: 2px solid rgb(0, 0, 0);
     text-align: center;
-    color: white;
+    color: white
+
 }
 .td{
     border: 2px solid rgb(0, 0, 0);
+    color: white
 }
 div{
     margin-left: 10px;
@@ -20,7 +23,7 @@ div{
     margin: auto auto auto auto;
     padding: 50px;
     border-radius: 8px;
-    color: white;
+    color: white
 }
 h2{
     font-weight: 600;
